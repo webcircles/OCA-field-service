@@ -1,18 +1,22 @@
 [project]
 name = "odoo-addons-oca-field-service"
-version = "18.0.20251103.0"
+version = "18.0.20260727.0"
 dependencies = [
     "odoo-addon-base_territory==18.0.*",
     "odoo-addon-fieldservice==18.0.*",
     "odoo-addon-fieldservice_account==18.0.*",
     "odoo-addon-fieldservice_activity==18.0.*",
     "odoo-addon-fieldservice_agreement==18.0.*",
+    "odoo-addon-fieldservice_agreement_repair==18.0.*",
     "odoo-addon-fieldservice_availability==18.0.*",
     "odoo-addon-fieldservice_calendar==18.0.*",
     "odoo-addon-fieldservice_crm==18.0.*",
     "odoo-addon-fieldservice_equipment_stock==18.0.*",
     "odoo-addon-fieldservice_equipment_warranty==18.0.*",
+    "odoo-addon-fieldservice_fleet==18.0.*",
+    "odoo-addon-fieldservice_geoengine==18.0.*",
     "odoo-addon-fieldservice_kanban_info==18.0.*",
+    "odoo-addon-fieldservice_maintenance==18.0.*",
     "odoo-addon-fieldservice_portal==18.0.*",
     "odoo-addon-fieldservice_project==18.0.*",
     "odoo-addon-fieldservice_recurring==18.0.*",
@@ -26,10 +30,13 @@ dependencies = [
     "odoo-addon-fieldservice_sale_recurring==18.0.*",
     "odoo-addon-fieldservice_sale_recurring_agreement==18.0.*",
     "odoo-addon-fieldservice_sale_stock==18.0.*",
+    "odoo-addon-fieldservice_sale_stock_route==18.0.*",
     "odoo-addon-fieldservice_size==18.0.*",
     "odoo-addon-fieldservice_skill==18.0.*",
     "odoo-addon-fieldservice_stage_server_action==18.0.*",
+    "odoo-addon-fieldservice_stage_validation==18.0.*",
     "odoo-addon-fieldservice_stock==18.0.*",
+    "odoo-addon-fieldservice_subcontracting==18.0.*",
     "odoo-addon-fieldservice_timesheet==18.0.*",
     "odoo-addon-fieldservice_vehicle==18.0.*",
 ]
